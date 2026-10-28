@@ -1,0 +1,5 @@
+# === Файл: .gitattributes (защита от конфликтов переноса строк CRLF на Windows 10) ===
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
