@@ -1,0 +1,20 @@
+# === Файл: .gitignore ===
+# Кэш байт-кода Python и виртуальные окружения (virtual environments)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Временные файлы редакторов и Jupyter Notebook
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Секретные папки преподавателя (чтобы эталонные ответы не улетали ученикам раньше времени!)
+teacher_notes/
+
+# Защита от тяжелых датасетов свыше лимита GitHub (кроме учебных таблиц в папке datasets/)
+*.csv
+*.xlsx
+*.pkl
+!datasets/*.csv
